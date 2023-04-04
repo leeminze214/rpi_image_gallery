@@ -2,20 +2,41 @@
 <html lang="en">
 
 <head>
-    <script>
-        const image_list = {{ image_list| tojson}};
-        for (int i = 0; i < 3; i++) {
-            document.write(image_list[i]);
-        }
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>home</title>
 </head>
 
 <body>
+    <div id="gallery"></div>
     <p>this is testing gif it workds</p>
+    <form action="/take_pic" method="GET">
+        <input type="submit" value="take picture" />
+    </form>
+    <script>
+        let image_list = {{ data | safe }};
+        /*
+        for (let i = 0; i < 3; i++) {
+            let image = document.createElement("img");
+            image.src = image_list[i];
+            let gallery = element.getElementbyId("gallery")
+            gallery.appendChild(image);
+            document.write("image added");
+        }*/
+        for (let i = 0; i < image_list.length; i++) {
+            const para = document.createElement("p");
+            const node = document.createTextNode(image_list[i]);
+            para.appendChild(node);
+            const element = document.getElementById("gallery");
+            element.appendChild(para);
+        }
+
+
+    </script>
+
 </body>
+
 
 </html>

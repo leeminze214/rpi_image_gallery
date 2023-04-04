@@ -1,0 +1,8 @@
+/home/pi/coding/rpi_pic_website/static/2023-03-28 15:42:05.780556.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 00:25:01.480048.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 00:31:45.232187.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 14:49:28.286564.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 14:49:31.588421.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 14:49:36.393255.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 14:49:37.769761.jpg
+/home/pi/coding/rpi_pic_website/static/2023-03-29 14:49:41.461324.jpg
